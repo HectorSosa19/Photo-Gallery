@@ -1,0 +1,82 @@
+<!DOCTYPE html>
+<html>
+  <head>
+    <title>Galeria 3D</title>
+    <meta name="viewport" content="width=device-width, initial-scale=1" />
+    <link rel="stylesheet" href="style.css" />
+  </head>
+  <body>
+    <section class="portafolio">
+      <div class="container">
+        <div class="row">
+          <div class="section-title">
+            <h1>Galeria de fotos</h1>
+          </div>
+          <div class="row">
+            <div class="portafolio-items">
+              <div class="item">
+                <img src="images/imagen1.jpg" alt="portafolio" />
+                <div class="overlay">
+                  <h2>Testing</h2>
+                  <span class="fa fa-search"></span>
+                </div>
+              </div>
+              <div class="item">
+                <img src="images/imagen2.jpg" alt="portafolio" />
+                <div class="overlay">
+                  <h2>Testing</h2>
+                  <span class="fa fa-search"></span>
+                </div>
+              </div>
+              <div class="item">
+                <img src="images/imagen3.jpg" alt="portafolio" />
+                <div class="overlay">
+                  <h2>Testing</h2>
+                  <span class="fa fa-search"></span>
+                </div>
+              </div>
+              <div class="item">
+                <img src="images/imagen4.jpg" alt="portafolio" />
+                <div class="overlay">
+                  <h2>Testing</h2>
+                  <span class="fa fa-search"></span>
+                </div>
+              </div>
+              <div class="item">
+                <img src="images/imagen5.png" alt="portafolio" />
+                <div class="overlay">
+                  <h2>Testing</h2>
+                  <span class="fa fa-search"></span>
+                </div>
+              </div>
+              <div class="item">
+                <img src="images/imagen6.jpg" alt="portafolio" />
+                <div class="overlay">
+                  <h2>Testing</h2>
+                  <span class="fa fa-search"></span>
+                </div>
+              </div>
+            </div>
+          </div>
+        </div>
+      </div>
+    </section>
+    <!-- Start Lightbox-->
+    <div class="lightbox">
+      <div class="lightbox-content">
+        <div class="lightbox-close">&times;</div>
+        <img src="" class="lightbox-img" alt="img" onclick="next()" />
+        <div class="lightbox-caption">
+          <span class="lightbox-text"></span>
+          <span class="lightbox-counter"></span>
+        </div>
+      </div>
+      <div class="lightbox-controls">
+        <div class="prev" onclick="prev()">&#60;</div>
+        <div class="next" onclick="next()">&#62;</div>
+      </div>
+    </div>
+    <!-- End Lightbox-->
+    <script src="script.js"></script>
+  </body>
+</html>
